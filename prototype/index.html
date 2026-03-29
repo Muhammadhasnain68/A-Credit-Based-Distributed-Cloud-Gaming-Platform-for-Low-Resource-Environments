@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cloud Gaming Prototype</title>
+</head>
+<body>
+
+<h1>Credit-Based Gaming System</h1>
+
+<p>Your Credits: <span id="credits">0</span></p>
+
+<button onclick="earnCredits()">Earn Credits</button>
+<button onclick="playGame()">Play Game (10 credits)</button>
+
+<script>
+let credits = 0;
+
+function earnCredits() {
+  credits += 5;
+  document.getElementById("credits").innerText = credits;
+}
+
+function playGame() {
+  if (credits >= 10) {
+    credits -= 10;
+    alert("Game Started!");
+  } else {
+    alert("Not enough credits!");
+  }
+  document.getElementById("credits").innerText = credits;
+}
+</script>
+
+</body>
+</html>
