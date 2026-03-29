@@ -1,0 +1,2 @@
+# A-Credit-Based-Distributed-Cloud-Gaming-Platform-for-Low-Resource-Environments
+This paper proposes a credit-based cloud gaming platform that enables users in low-resource environments to access high-performance games without direct payment. By leveraging distributed computing and user-earned credits, the system reduces cost barriers and improves accessibility while maintaining scalability and efficiency.
