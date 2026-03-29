@@ -17,6 +17,7 @@ The system consists of:
 - Cloud servers for game streaming
 - User nodes contributing compute resources
 - Credit management system
+![Architecture](docs/architecture.png)
 
 ## 📄 Research Paper
 The full research paper is available in the `/paper` directory.
